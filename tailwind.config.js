@@ -2,11 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      fontFamily: {
-        'fira': ['"Fira Code"', 'monospace'],
-      },
-    },
+    extend: {},
   },
   plugins: [
     require('@tailwindcss/forms'),
