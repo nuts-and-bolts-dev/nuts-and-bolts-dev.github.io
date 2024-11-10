@@ -1,1 +1,16 @@
-node_modules
+# .gitignore
+
+# Generated CSS
+src/css/styles.css
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large media files (optional)
+*.psd
+*.ai
+*.mp4
+
+# Node
+node_modules/
